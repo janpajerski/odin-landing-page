@@ -1,0 +1,39 @@
+/* Normalize values for margins and padding */
+
+html, body, ul, li {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+/* Center content containers in all sections */
+
+header, .splash, .info, .quote, .call-to-action, footer {
+    display: flex;
+    justify-content: center;
+}
+
+/* Set content width */
+
+.content {
+    width: 900px;
+}
+
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header, .splash, footer {
+    background-color: #1f2937;
+    color: #fff;
+}
+
+header .content{
+    flex-basis: auto;
+    display: flex;
+    justify-content: space-between;    
+} 
+
+

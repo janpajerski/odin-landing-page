@@ -14,9 +14,13 @@ The landing page project is at the end of the Flexbox module. Up to this point, 
 <h3>Initial Thoughts</h3>
 <p>The webpage design looks have four main sections with a header at the top and a footer at the bottom. The content on the entire webpage is kept to a maximum width while the background colors in each section extends full width.</p>
 
-</p>I will start by creating the main sections: header, splash, info, quote, action, and footer. The fill out each section with content based on the design.</p>
+</p>Start by creating the main sections: header, splash, info, quote, action, and footer. Add styles to the body and start filling out each section (top to bottom) with content based on the design.</p>
+
+
 
 </p><strong>Problems to solve</strong></p>
 <ul>
 <li>Keep content to max width</li>
 </ul>
+
+<h3>Step 1 - Finish the 
