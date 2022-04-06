@@ -19,6 +19,11 @@ header, .splash, .info, .quote, .call-to-action, footer {
     width: 900px;
 }
 
+/* Set header and footer height */
+header, footer {
+    height: 50px;
+}
+
 body {
     font-family: Roboto, Helvetica, sans-serif;
     display: flex;
@@ -30,10 +35,34 @@ header, .splash, footer {
     color: #fff;
 }
 
-header .content{
+
+
+
+/* Header specific styling */
+
+header .content {
     flex-basis: auto;
     display: flex;
-    justify-content: space-between;    
-} 
+    justify-content: space-between;
+    align-items: center;
+}
 
+header .logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    color: #e5e7eb;
+    gap: 16px;
+}
+
+header a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 16px;
+}
 
