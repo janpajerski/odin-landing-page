@@ -1,6 +1,10 @@
+/* Import Roboto font */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
 /* Normalize values for margins and padding */
 
-html, body, ul, li {
+html, body, ul, li, h1, p {
     margin: 0px;
     padding: 0px;
     border: 0px;
@@ -8,7 +12,7 @@ html, body, ul, li {
 
 /* Center content containers in all sections */
 
-header, .splash, .info, .quote, .call-to-action, footer {
+header, .hero, .info, .quote, .call-to-action, footer {
     display: flex;
     justify-content: center;
 }
@@ -16,7 +20,7 @@ header, .splash, .info, .quote, .call-to-action, footer {
 /* Set content width */
 
 .content {
-    width: 900px;
+    width: 1000px;
 }
 
 /* Set header and footer height */
@@ -25,14 +29,17 @@ header, footer {
 }
 
 body {
-    font-family: Roboto, Helvetica, sans-serif;
+    font-family: 'Roboto', Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
 }
 
-header, .splash, footer {
+p {
+    font-size: 18px;
+}
+
+header, .hero, footer {
     background-color: #1f2937;
-    color: #fff;
 }
 
 
@@ -66,3 +73,46 @@ header a {
     font-size: 16px;
 }
 
+/* hero styling */
+
+.hero .content {
+    color: #f9faf8;
+    display: flex;
+    padding: 80px 0px;
+}
+
+.hero-text {
+    flex-basis: 50%;
+    box-sizing: border-box;
+    padding-right: 40px;
+
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero button {
+    margin-top: 12px;
+    font-size: 20px;
+    color: #f9faf8;
+    font-weight: 700;
+    background-color: #3882f6;
+    padding: 8px 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: none;
+}
+
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+    /* height: 200px; */
+    background-color: #a2a2a4
+}
