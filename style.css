@@ -23,10 +23,7 @@ header, .hero, .info, .quote, .call-to-action, footer {
     width: 1000px;
 }
 
-/* Set header and footer height */
-header, footer {
-    height: 50px;
-}
+/* Set some initial styles */
 
 body {
     font-family: 'Roboto', Helvetica, sans-serif;
@@ -42,10 +39,11 @@ header, .hero, footer {
     background-color: #1f2937;
 }
 
-
-
-
 /* Header specific styling */
+
+header {
+    height: 70px;
+}
 
 header .content {
     flex-basis: auto;
@@ -221,4 +219,17 @@ p.quote-source{
 .call-to-action h3 {
     font-size: 24px;
     font-weight: bold;
+}
+
+/* Footer specific styling */
+
+footer {
+    height: 100px
+}
+
+footer .content {
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
