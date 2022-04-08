@@ -18,9 +18,10 @@ The landing page project is at the end of the Flexbox module. Up to this point, 
 
 
 
-</p><strong>Problems to solve</strong></p>
+</p><strong>General TODOs</strong></p>
 <ul>
 <li>Keep content to max width</li>
+<li>Keep image placeholder fixed width</li>
 </ul>
 
 <h3>Step 1 - Finish the 
