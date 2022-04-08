@@ -80,7 +80,6 @@ header a {
 }
 
 .hero-text {
-    flex-basis: 50%;
     box-sizing: border-box;
     padding-right: 40px;
 
@@ -93,6 +92,7 @@ header a {
 
 .hero button {
     margin-top: 12px;
+    margin-right: 0px;
     font-size: 20px;
     color: #f9faf8;
     font-weight: 700;
@@ -110,7 +110,8 @@ header a {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-basis: 50%;
+    width: 500px;
+    flex: 1 0 auto;
     /* height: 200px; */
     background-color: #a2a2a4
 }
