@@ -185,3 +185,40 @@ p.quote-source{
     font-style: normal;
     font-size: 24px;
 }
+
+/* Call to action specific styling */
+
+.call-to-action .content {
+    background-color: #3882f6;
+    box-sizing: border-box;
+    padding: 60px 120px;
+    border-radius: 12px;
+    margin: 120px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-to-action button {
+    font-size: 20px;
+    color: #f9faf8;
+    font-weight: 700;
+    background-color: #3882f6;
+    padding: 8px 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: 2px solid #f9faf8;
+}
+
+.call-to-action h3, .call-to-action p {
+    color: #f9faf8;
+    margin: 0px;
+    padding: 0px;
+}
+
+.call-to-action h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
